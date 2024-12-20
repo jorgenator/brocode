@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Random Password Generator</h1>
+    <div class="enterValuesBlock">
+        <label>Include Lowercase </label>
+        <input type="checkbox" id="includeLowercase"> <br>
+        <label>Include Uppercase </label>
+        <input type="checkbox" id="includeUppercase"> <br>
+        <label>Include Numbers </label>
+        <input type="checkbox" id="includeNumbers"> <br>
+        <label>Include Symbols </label>
+        <input type="checkbox" id="includeSymbols"> <br>
+
+        <label>Enter password length:</label>
+        <input id="inputField" type="number" min="1" value="1" placeholder="Enter a number">
+        <button onclick="main()" type="button">Generate</button>
+    </div>
+    <div class="resultBlock">
+        <p>Generated password: </p> <br>
+        <p id="resultField"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body{
+    font-family:sans-serif, Arial;
+    text-align: center;
+}
+body h1{
+    font-size: 3rem;
+}
+
+.resultBlock{
+    font-weight: bold;
+}

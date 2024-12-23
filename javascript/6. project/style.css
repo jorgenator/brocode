@@ -17,7 +17,7 @@ body::before {
     padding: 10px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bol;
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
     color: white;

@@ -11,8 +11,8 @@ body::before {
     z-index: -1;
 }
 
-.timeItem {
-    margin-top: 50%;
+.clockContainer {
+    margin-top: 50vh;
     height: 100px;
     padding: 10px;
     text-align: center;

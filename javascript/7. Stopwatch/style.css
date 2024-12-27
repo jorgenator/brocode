@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: hsl(0, 0%, 100%);
+    margin-top: 2rem;
+}
+
+#display{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.containerTimer{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+#startBtn, #stopBtn, #resetBtn{
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+#startBtn{
+    background-color: green;
+}
+
+#stopBtn{
+    background-color: red;
+}
+
+#resetBtn{
+    background-color: blue;
+}
+

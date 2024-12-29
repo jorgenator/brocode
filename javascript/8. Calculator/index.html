@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculatorContainer">
+        <div class="displayContainer">
+            <input type="text" id="display" value="0.00" readonly>
+        </div>
+        <div class="inputContainer">
+            <div class="operandContainer">
+                <button onclick="appendToDisplay('+')" class="operandBtn" id="btn+">+</button>
+                <button onclick="appendToDisplay('-')" class="operandBtn" id="btn-">-</button>
+                <button onclick="appendToDisplay('*')" class="operandBtn" id="btn*">*</button>
+                <button onclick="appendToDisplay('/')" class="operandBtn" id="btn/">/</button>
+                <button onclick="clearDisplay()" class="operandBtn" id="btnC">C</button>
+            </div>
+        
+            <div class="numericPadContainer">
+                <button onclick="appendToDisplay('7')" class="numericBtn" id="btn1">7</button>
+                <button onclick="appendToDisplay('8')" class="numericBtn" id="btn2">8</button>
+                <button onclick="appendToDisplay('9')" class="numericBtn" id="btn3">9</button>
+                <button onclick="appendToDisplay('4')" class="numericBtn" id="btn4">4</button>
+                <button onclick="appendToDisplay('5')" class="numericBtn" id="btn5">5</button>
+                <button onclick="appendToDisplay('6')" class="numericBtn" id="btn6">6</button>
+                <button onclick="appendToDisplay('1')" class="numericBtn" id="btn7">1</button>
+                <button onclick="appendToDisplay('2')" class="numericBtn" id="btn8">2</button>
+                <button onclick="appendToDisplay('3')" class="numericBtn" id="btn9">3</button>
+                <button onclick="appendToDisplay('0')" class="numericBtn" id="btn0">0</button>
+                <button onclick="appendToDisplay('.')" class="numericBtn" id="btn.">.</button>
+                <button onclick="calculateResult()" class="numericBtn" id="btn=">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

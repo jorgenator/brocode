@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 img {
+    display: none;
+    margin-top: 20px; /* Add some space between the button and the image */
+}

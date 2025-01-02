@@ -17,7 +17,7 @@ function appendOperator(operator) {
 
 function calculateResult() {
     try {
-        display.value = eval(display.value);
+        display.value = eval(display.value); //fix this later
         if (display.value === 'Infinity') {
             display.value = 'Error';
             throw new Error('Division by zero');
